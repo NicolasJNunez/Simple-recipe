@@ -19,6 +19,9 @@ document.getElementById("calcular-btn").addEventListener("click", function(event
   ingrediente (1, "cucharada", "de esencia de vainilla"),
   ];
   document.querySelector("#resultado").innerHTML = resultado.join("<br>");
+
+  document.querySelector("p").style.display = "none";
+
 };
 
 arrozConLeche();
