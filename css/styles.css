@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(to right, white, rgb(80, 80, 139))
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.492);
+  text-decoration: underline;
+}
+
+main {
+  padding: 7rem 12rem;
+}
+
+main h2 {
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+main h3 {
+  font-size: 1.5rem;
+  color: rgb(97, 97, 97);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+main form input {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+  }
+  
+  main form input:focus {
+    color: rgb(0, 255, 255);
+    outline-color: rgb(0, 255, 255);
+    box-shadow: -3px -3px 15px rgb(0, 255, 255);
+    transition: .1s;
+    transition-property: box-shadow;
+  }
+
+  main form button {
+    width: auto;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+
+  main form div span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  @media (max-width: 902px) {
+    main {
+      padding: 7rem 5rem;
+    }
+  }
+
+  @media (max-width: 684px) {
+    main {
+      padding: 7rem 2rem;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 586px) {
+    main article h3 {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 494px) {
+    main section h2 {
+      font-size: 1.3rem;
+    }
+    header h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 398px) {
+    main form input {
+      margin-right: 5px;
+    }
+    main {
+      padding-right: .5rem;
+    }
+    main form button {
+      margin-right: 0;
+    }
+  }
