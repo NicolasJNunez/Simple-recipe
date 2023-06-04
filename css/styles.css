@@ -83,10 +83,7 @@ main form input {
 
   main form div span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  main article p {
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   @media (max-width: 902px) {
