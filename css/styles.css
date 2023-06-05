@@ -14,7 +14,7 @@ li {
 }
 
 body {
-  background: linear-gradient(to right, white, rgb(80, 80, 139))
+  background: linear-gradient(to right, white, rgb(180,92,31))
 }
 
 header {
@@ -44,7 +44,7 @@ main h2 {
 
 main h3 {
   font-size: 1.5rem;
-  color: rgb(99, 99, 201);
+  color: hsl(44, 12%, 100%);
   text-shadow: .5px .5px 1px rgba(0, 0, 0, 0.753), 1px 1px 1px black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
